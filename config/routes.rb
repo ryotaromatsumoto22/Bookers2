@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   resources :post_books, only: [:new, :create, :index, :show]
 
+  resources :user_profiles, only: [:edit, :update]
+
 end
